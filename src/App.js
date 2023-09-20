@@ -2,6 +2,7 @@ import './App.css';
 import Header from "./components/header/header";
 import {Route, Routes} from "react-router-dom";
 import HomePage from "./components/homePage/homePage";
+import Footer from "./components/footer/footer";
 
 function App() {
     return <div className='app'>
@@ -16,7 +17,7 @@ function App() {
                 </Routes>
             </main>
             <footer className="app__footer">
-                this is footer
+                <Footer/>
             </footer>
         </div>
     </div>
